@@ -19,30 +19,6 @@ A clean and well-organized WS2812B driver with animations for STM32 microcontrol
 - Recommended: 390Ω resistor on data line + 22pF capacitor to ground
 - Stable 5V power supply with proper bypassing
 
-## Project Structure
-Core/
-├── Inc/
-│   └── ws2812b.h
-├── Src/
-│   ├── ws2812b_driver.c
-│   ├── ws2812b_animations.c
-│   └── main.c
-
-
-#include "ws2812b.h"
-
-int main(void)
-{
-    // ... System and peripheral initialization ...
-
-    while (1)
-    {
-        Set_Matrix_Rainbow(5, 30);        // Beautiful rotating rainbow
-        // LED_Test_Pattern(5, 50);
-        // Set_Random_Flash(3, 60);
-        // Set_Matrix_Fire(25, 35);
-    }
-}
 
 ## Available Functions
 Core Driver
