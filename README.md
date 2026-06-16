@@ -22,6 +22,8 @@ Project generated in STM32CubeMX and edited in VS Code
 - Stable 5V power supply with proper bypassing
 
 ## Project Structure
+ws2812b driver files are located in the ws2812b-driver dirctory  
+
 Core/  
 ├── Inc/  
 │   └── ws2812b.h  
