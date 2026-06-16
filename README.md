@@ -63,9 +63,9 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 
 ## Building
 Use VS Code + CMake Tools.  
-Run CMake: Clean Rebuild after changes.
-main.c  
+Run CMake: Clean Rebuild after changes.  
 
+main.c  
 ```c
 #include "ws2812b.h"
 
