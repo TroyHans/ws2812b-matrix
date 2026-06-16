@@ -44,10 +44,6 @@ LED_Test_Pattern(brightness, delay_ms) — Column sweep with color cycling
 Set_Random_Flash(brightness, delay_ms)  
 Set_Matrix_Fire(intensity, delay_ms)
 
-## Building
-Use VS Code + CMake Tools.  
-Run CMake: Clean Rebuild after changes.
-
 ## Quick Start
 Add this to CMakeList.txt  
 
@@ -64,6 +60,10 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     Core/Inc
 )
 ```
+
+## Building
+Use VS Code + CMake Tools.  
+Run CMake: Clean Rebuild after changes.
 main.c  
 
 ```c
