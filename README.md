@@ -21,11 +21,11 @@ A clean and well-organized WS2812B driver with animations for STM32 microcontrol
 
 
 ## Available Functions
-Core Driver
+## Core Driver
 
-SetPixel(x, y, r, g, b) — Set pixel using natural coordinates
-Set_Brightness(brightness) — Set global brightness (0-45)
-Set_All_LEDs(r, g, b, brightness, delay_ms)
+SetPixel(x, y, r, g, b) — Set pixel using natural coordinates  
+Set_Brightness(brightness) — Set global brightness (0-45)  
+Set_All_LEDs(r, g, b, brightness, delay_ms)  
 WS2812_Send()
 
 ## Animations
