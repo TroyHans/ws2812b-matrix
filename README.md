@@ -49,6 +49,23 @@ Use VS Code + CMake Tools.
 Run CMake: Clean Rebuild after changes.
 
 ## Quick Start
+Add this to CMakeList.txt  
+
+```text
+# Add sources to executable
+target_sources(${CMAKE_PROJECT_NAME} PRIVATE
+    # Core driver and animations
+    Core/Src/ws2812b_driver.c
+    Core/Src/ws2812b_animations.c
+)
+
+# Add include paths
+target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
+    Core/Inc
+)
+```
+main.c  
+
 ```c
 #include "ws2812b.h"
 
