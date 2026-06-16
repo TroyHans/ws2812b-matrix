@@ -48,6 +48,23 @@ Set_Matrix_Fire(intensity, delay_ms)
 Use VS Code + CMake Tools.  
 Run CMake: Clean Rebuild after changes.
 
+## Quick Start
+```c
+#include "ws2812b.h"
+
+int main(void)
+{
+    // ... System and peripheral initialization ...
+
+    while (1)
+    {
+        Set_Matrix_Rainbow(5, 30);        // Beautiful rotating rainbow
+        // LED_Test_Pattern(5, 50);
+        // Set_Random_Flash(3, 60);
+        // Set_Matrix_Fire(25, 35);
+    }
+}
+```
 ## Notes
 
 Brightness above 10-15 can be very bright — start low.  
