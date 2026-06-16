@@ -1,6 +1,8 @@
 # WS2812B 16x16 Matrix Library for STM32
 
-A clean and well-organized WS2812B driver with animations for STM32 microcontrollers (tested on F411RE).
+A clean and well-organized WS2812B driver with animations for STM32 microcontrollers (tested on F411RE).  
+Project generated in STM32CubeMX and edited in VS Code  
+
 
 ## Features
 
