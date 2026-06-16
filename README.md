@@ -30,18 +30,20 @@ WS2812_Send()
 
 ## Animations
 
-Set_Matrix_Rainbow(brightness, speed_ms)
-LED_Test_Pattern(brightness, delay_ms) — Column sweep with color cycling
-Set_Random_Flash(brightness, delay_ms)
+Set_Matrix_Rainbow(brightness, speed_ms)  
+LED_Test_Pattern(brightness, delay_ms) — Column sweep with color cycling  
+Set_Random_Flash(brightness, delay_ms)  
 Set_Matrix_Fire(intensity, delay_ms)
 
 ## Building
-Use VS Code + CMake Tools. Run CMake: Clean Rebuild after changes.
-Notes
+Use VS Code + CMake Tools.  
+Run CMake: Clean Rebuild after changes.
 
-Brightness above 10-15 can be very bright — start low.
+## Notes
+
+Brightness above 10-15 can be very bright — start low.  
 The library is designed to be easy to expand with new animation files.
 
 
-Author: Troy
+Author: Troy  
 GitHub: TroyHans
